@@ -1,0 +1,11 @@
+/***location***/
+.location__container {
+  background-color: #EAEAEA;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0px 2px 4px;
+}
+
+/*# sourceMappingURL=style.css.map */
