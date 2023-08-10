@@ -10,6 +10,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./public/css/style.css">
     <link rel="stylesheet" href="./sass/layout/style.css">
+    <link rel="stylesheet" href="./sass/componnents/_header.scss">
+    <link rel="stylesheet" href="./sass/componnents/_main.scss">
+
     <title>ohmyfood homepage</title>
 </head>
 <body>
@@ -21,15 +24,43 @@
             </a>
         </nav>
         <!--LOCATION-->
-        <section id="location">
-            <div class="location__container">
-                <i class="fa-solid fa-location-dot" style="color: #353535;"></i>
-                <p>Paris, Belleville</p>
-            </div>
+        <section class="location">
+            <i class="fa-solid fa-location-dot" style="color: #353535;"></i>
+            <p class="location-text">Paris, Belleville</p>
         </section>
     </header>
     
-    <main></main>
+    <main>
+        <!-- TITLE-->
+        <section class="first">
+            <h1 class="first__titles">Reservez le menu qui vous convient</h1>
+            <p class="first__subtitle">Découvrez des restaurants d'exceptions sélectionnés par nos soins</p>
+            <a class="first__btn">Explorez nos restaurants</a>
+        </section>
+
+        <!--EXPLICATION-->
+        <section class="explication">
+            <div class="container">
+              <h2 class="explication__title">Fonctionnement</h2>
+              <ol class="explication__steps">
+                <li class="explication__step">
+                  <i class="explication__icon fas fa-mobile-alt"></i>
+                  <span class="text">Choisissez un restaurant</span>
+                </li>
+                <li class="explication__step">
+                  <i class="explication__icon fas fa-list-ul"></i>
+                  <span class="text">Composez votre menu</span>
+                </li>
+                <li class="explication__step">
+                  <i class="explication__icon fas fa-store"></i>
+                  <span class="text">Dégustez au restaurant</span>
+                </li>
+              </ol>
+            </div>
+          </section>
+
+
+    </main>
     
     <footer></footer>
 </body>

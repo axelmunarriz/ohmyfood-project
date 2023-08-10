@@ -9,6 +9,11 @@
 .location {
     display: flex;
     align-items: center;
-    margin: 3Opx;
+    padding: 3Opx;
     background-color: $greylight;
+    font-size: 700;
+
+    &-text {
+        font-weight: 700;
+      }
 }
